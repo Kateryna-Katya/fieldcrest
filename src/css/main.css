@@ -1,0 +1,42 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-wrapper{
+    margin-top: 260px;
+    width: 333px;
+        height: 187px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.home-title{
+    font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        text-align: center;
+        color: #000;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+height: 960px;
+}
+.home-wrapper{
+    margin-top: 270px;
+width: 900px;
+    height: 282px;
+        gap: 50px;
+}
+
+.home-title{
+font-size: 66px;
+}    
+}
