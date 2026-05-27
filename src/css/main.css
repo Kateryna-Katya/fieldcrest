@@ -72,3 +72,125 @@ font-size: 66px;
         gap: 20px;
 }    
 }
+/* How the harvest grows */
+.how-container{
+    padding-left: 53px;
+    padding-right: 53px;
+}
+.how-swiper .swiper-slide {
+box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.15);
+    background: #fae4b8;
+border-radius: 30px;
+    width: 274px;
+    height: 391px;
+}
+.how-slide-wrapper{
+    padding: 26px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.how-img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.how-slide-title {
+font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+.swiper-controls {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    gap: 4px;
+}
+
+.how-prev,
+.how-next {
+    width: 29px !important;
+    height: 29px !important;
+    border-radius: 100%;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-prev:hover,
+.how-next:hover {
+    background-color: #fae4b8;
+    border: inherit;
+}
+
+.swiper-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-pagination {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 60px !important;
+
+}
+
+.how-pagination .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    background:rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.how-pagination .swiper-pagination-bullet-active {
+    background: #000;
+    width: 6px;
+    height: 6px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .swiper-controls {
+        display: none;
+    }
+
+    .how-swiper .swiper-wrapper {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .how-swiper .swiper-slide {
+width: 268px;
+    height: 395px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .how-slide-title {
+font-size: 20px;
+height: 39px;
+    }
+
+    .how-slide-text {
+font-size: 14px;
+    }
+    .how-container h2{
+        text-align: center;
+    }
+}
