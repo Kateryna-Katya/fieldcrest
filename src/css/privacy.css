@@ -6,28 +6,28 @@
 
 .background {
     text-align: left;
-}
-
-.policy-container {
-    padding-left: 12px;
-    padding-right: 12px;
+    color: #151515;
 }
 
 .privacy-title {
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
+font-family: "Quicksand", sans-serif;
+    font-weight: 700;
     font-size: 30px;
-    color: #e59d00;
+    letter-spacing: -0.04em;
+    color: #151515;
     text-align: center;
 }
-
+.policy-container{
+    padding-left: 8px;
+    padding-right: 7px;
+}
 .policy-subtitle {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
+font-family: "Roboto", sans-serif;
+    font-weight: 800;
     font-size: 16px;
-    color: #fff;
+    color: #151515;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
@@ -87,8 +87,8 @@
     }
 
     .policy-container {
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .privacy-title {
@@ -96,6 +96,6 @@
     }
 
     .policy-subtitle {
-        font-size: 30px;
+font-size: 30px;
     }
 }
