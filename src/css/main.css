@@ -6,9 +6,8 @@
     height: 812px;
 }
 .home-wrapper{
-    margin-top: 260px;
+    margin-top: 270px;
     width: 333px;
-        height: 187px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -32,11 +31,44 @@ height: 960px;
 .home-wrapper{
     margin-top: 270px;
 width: 900px;
-    height: 282px;
         gap: 50px;
 }
 
 .home-title{
 font-size: 66px;
+}    
+}
+/* A quiet field with room to grow */
+.quiet-container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.quiet-wrapper{
+    width: 310px;
+}
+.quiet-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+}
+@media only screen and (min-width: 1440px) {
+.quiet-container{
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 133px;
+}
+.quiet-wrapper{
+    width: 743px;
+}
+.quiet-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
 }    
 }
